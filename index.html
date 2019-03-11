@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="logo">Lista zadań</h1>
+        <div class="inputsDiv">
+            <input type="text" placeholder="Podaj zadanie" id="inputToDoTask"/>
+            <button type="button" id="btnDodaj">Dodaj</button>
+        </div>
+        <div class="toDoTask" id="toDoTasks">
+            <div id="task">
+                <p>Zadanie nr 1</p>
+                <span id="deleteTask" onclick="clickDel()">x</span>
+                <i class="far fa-edit fa-xs"></i>
+                <div style="clear:both"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

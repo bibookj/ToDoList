@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700&subset=latin-ext');
+body{
+    background-color: #e5e5e5;
+    font-family: 'Lato', sans-serif;
+}
+.logo{
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+}
+.container{
+    padding: 20px;
+    background-color: #ffffff;
+    width: 360px;
+    margin: auto;
+    border-radius: 8px;
+    min-height: 600px;
+    text-align: center;
+}
+input[type=text]{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    caret-color: black;
+    margin-bottom: 30px;
+}
+
+.toDoTask p{
+    float: left;
+    margin: 0;
+}
+.toDoTask i{
+    float: right;
+    margin: 0;
+}
+.toDoTask span{
+    float: right;
+}
+.toDoTask{
+    margin: auto;
+    width: 220px;
+    border-bottom: 1px solid black;
+}
+.inputsDiv{
+    margin-bottom: 20px;
+}
+.inputsDiv button{
+    background-color: white;
+    border: 1px solid black;
+}
